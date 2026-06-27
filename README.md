@@ -23,7 +23,3 @@ A modern one-page website concept for Gallant’s Roofing Ltd. in Fredericton, N
 ## Latest update
 
 The blank image block beside “Why homeowners call Gallant’s” has been replaced with a styled roofing quote card that does not rely on external images.
-
-## Adding real Facebook/project photos
-
-Do not reuse Facebook photos unless Gallant’s Roofing/Nathan gives permission. Once approved, create an `assets` folder, add optimized images such as `roof-1.jpg`, and replace the `.roof-proof-card` block in `index.html` with image/gallery markup.
