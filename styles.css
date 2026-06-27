@@ -82,7 +82,21 @@ h3 { font-size: 22px; letter-spacing: -.02em; }
 .card p { color: var(--muted); }
 .split { background: var(--white); }
 .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 58px; align-items: center; }
-.image-panel { min-height: 520px; border-radius: 34px; background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.2)), url('https://images.unsplash.com/photo-1632759145354-9fef22c0d7d9?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center; box-shadow: var(--shadow); }
+.roof-proof-card { min-height: 520px; border-radius: 34px; background: linear-gradient(180deg, #101820, #1b2836); color: var(--white); box-shadow: var(--shadow); padding: 34px; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; position: relative; }
+.roof-proof-card:before { content: ""; position: absolute; inset: auto -80px -120px auto; width: 260px; height: 260px; background: rgba(245,158,11,.16); border-radius: 50%; }
+.roof-proof-visual { height: 170px; border-radius: 24px; background: linear-gradient(135deg, #283746, #0e151d); border: 1px solid rgba(255,255,255,.12); position: relative; overflow: hidden; margin-bottom: 24px; }
+.roofline { position: absolute; left: 35px; right: 35px; top: 68px; height: 18px; background: var(--accent); border-radius: 999px; transform: rotate(-18deg); box-shadow: 0 18px 30px rgba(0,0,0,.22); }
+.shingle-row { position: absolute; left: 28px; right: 28px; height: 18px; border-radius: 999px; background: repeating-linear-gradient(90deg, rgba(255,255,255,.2) 0 24px, rgba(255,255,255,.08) 24px 48px); }
+.row-one { bottom: 56px; }
+.row-two { bottom: 34px; opacity: .75; }
+.row-three { bottom: 12px; opacity: .55; }
+.roof-proof-card h3 { font-size: 30px; max-width: 420px; }
+.roof-proof-card p { color: #d4dce5; font-size: 17px; }
+.mini-list { list-style: none; padding: 0; margin: 18px 0 24px; display: grid; gap: 10px; }
+.mini-list li { position: relative; padding-left: 28px; font-weight: 800; color: #eef3f8; }
+.mini-list li:before { content: "✓"; position: absolute; left: 0; color: var(--accent); }
+.proof-button { align-self: flex-start; }
+.photo-note { font-size: 13px !important; margin: 18px 0 0; color: #aeb9c5 !important; }
 .split-copy p { color: var(--muted); font-size: 18px; }
 .checklist { padding: 0; list-style: none; margin: 26px 0 0; display: grid; gap: 14px; }
 .checklist li { padding-left: 34px; position: relative; font-weight: 700; }
@@ -116,5 +130,6 @@ textarea { resize: vertical; }
   .hero { padding: 72px 0; }
   .quote-card { max-width: 520px; }
   .three, .timeline, .stats-grid, .footer-grid { grid-template-columns: 1fr; }
-  .image-panel { min-height: 330px; }
+  .roof-proof-card { min-height: auto; }
+  .roof-proof-visual { height: 140px; }
 }
