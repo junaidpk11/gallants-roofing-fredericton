@@ -1,23 +1,25 @@
-# Gallant's Roofing Ltd. website demo
+# Gallant’s Roofing Ltd. Website Starter
 
-Clean one-page static website for Gallant's Roofing Ltd. in Fredericton, NB.
+A modern one-page website concept for Gallant’s Roofing Ltd. in Fredericton, NB.
 
 ## Files
+- `index.html` — Website content and SEO schema
+- `styles.css` — Responsive modern styling
+- `script.js` — Mobile menu toggle
 
-- `index.html` — website content and SEO metadata
-- `styles.css` — responsive styling
-- `script.js` — mobile menu behavior
+## Before launch
+1. Replace `https://example.com` in the schema with the final domain.
+2. Replace `quotes@example.com` in the form with the client’s real email or connect a form service.
+3. Confirm the exact business name spelling: “Gallant’s Roofing Ltd.” vs “Gallants Roofing Ltd.”
+4. Confirm warranty details, service radius, hours, and whether they want Facebook Messenger as the main online lead source.
+5. Add real project photos from the business.
 
-## Notes before final client use
+## Suggested domain ideas
+- gallantsroofing.ca
+- gallantsroofingfredericton.ca
+- frederictonshingleroofing.ca
 
-Confirm the final business name spelling, warranty wording, service radius, hours, and whether the owner wants Facebook Messenger included as a contact option.
 
-## Deploy to GitHub Pages
+## Latest update
 
-```bash
-git add .
-git commit -m "Redo clean owner-facing website"
-git push
-```
-
-GitHub Pages should publish from the `main` branch and `/root` folder.
+The blank image block beside “Why homeowners call Gallant’s” has been replaced with a styled roofing quote card that does not rely on external images.
